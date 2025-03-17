@@ -1467,7 +1467,6 @@ PRODUCT_PACKAGES += \
     NetworkStackResOverlay \
     TetheringResOverlay \
     com.transsion.tranfacsdk \
-    android.hardware.biometrics.fingerprint@2.1-service.xml \
     android.hardware.boot@1.2.xml \
     android.hardware.cas@1.2-service-lazy.xml \
     android.hardware.health@2.1.xml \
@@ -1529,17 +1528,10 @@ PRODUCT_PACKAGES += \
     gsm0710muxd \
     hostapd_cli \
     android.hardware.audio.service.mediatek \
-    android.hardware.biometrics.face@1.0-service.example \
-    android.hardware.biometrics.fingerprint@2.1-service \
     android.hardware.bluetooth@1.1-service-mediatek \
-    android.hardware.boot@1.2-service \
-    android.hardware.cas@1.2-service-lazy \
     android.hardware.drm@1.4-service-lazy.clearkey \
     android.hardware.drm@1.4-service-lazy.widevine \
-    android.hardware.gatekeeper@1.0-service \
     android.hardware.graphics.allocator@4.0-service-mediatek \
-    android.hardware.graphics.composer@2.1-service \
-    android.hardware.health@2.1-service \
     android.hardware.keymaster@4.1-service.trustonic \
     android.hardware.lights-service.mediatek \
     android.hardware.media.c2@1.2-mediatek \

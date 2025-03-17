@@ -11903,15 +11903,6 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "gnss-default.xml",
-	owner: "infinix",
-	src: "proprietary/vendor/etc/vintf/manifest/gnss-default.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
 	name: "gnss@2.1-service.xml",
 	owner: "infinix",
 	src: "proprietary/vendor/etc/vintf/manifest/gnss@2.1-service.xml",
@@ -12141,14 +12132,6 @@ sh_binary {
 }
 
 sh_binary {
-	name: "applypatch",
-	owner: "infinix",
-	src: "proprietary/vendor/bin/applypatch",
-	filename: "applypatch",
-	soc_specific: true,
-}
-
-sh_binary {
 	name: "atcid",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/atcid",
@@ -12237,14 +12220,6 @@ sh_binary {
 }
 
 sh_binary {
-	name: "dmabuf_dump",
-	owner: "infinix",
-	src: "proprietary/vendor/bin/dmabuf_dump",
-	filename: "dmabuf_dump",
-	soc_specific: true,
-}
-
-sh_binary {
 	name: "dmc_core",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/dmc_core",
@@ -12273,14 +12248,6 @@ sh_binary {
 	owner: "infinix",
 	src: "proprietary/vendor/bin/dtc_vendor",
 	filename: "dtc_vendor",
-	soc_specific: true,
-}
-
-sh_binary {
-	name: "dumpsys",
-	owner: "infinix",
-	src: "proprietary/vendor/bin/dumpsys",
-	filename: "dumpsys",
 	soc_specific: true,
 }
 
@@ -12407,15 +12374,6 @@ sh_binary {
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/android.hardware.media.c2@1.2-mediatek",
 	filename: "android.hardware.media.c2@1.2-mediatek",
-	sub_dir: "hw",
-	soc_specific: true,
-}
-
-sh_binary {
-	name: "android.hardware.media.omx@1.0-service",
-	owner: "infinix",
-	src: "proprietary/vendor/bin/hw/android.hardware.media.omx@1.0-service",
-	filename: "android.hardware.media.omx@1.0-service",
 	sub_dir: "hw",
 	soc_specific: true,
 }

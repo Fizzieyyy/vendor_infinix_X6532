@@ -8497,24 +8497,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libstagefright_bufferpool@2.0.1",
-	owner: "infinix",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib/libstagefright_bufferpool@2.0.1.so"],
-			shared_libs: [ ],
-		},
-	},
-	compile_multilib: "32",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libstagefright_softomx_plugin",
 	owner: "infinix",
 	strip: {
@@ -12376,46 +12358,10 @@ sh_binary {
 }
 
 sh_binary {
-	name: "android.hardware.biometrics.face@1.0-service.example",
-	owner: "infinix",
-	src: "proprietary/vendor/bin/hw/android.hardware.biometrics.face@1.0-service.example",
-	filename: "android.hardware.biometrics.face@1.0-service.example",
-	sub_dir: "hw",
-	soc_specific: true,
-}
-
-sh_binary {
-	name: "android.hardware.biometrics.fingerprint@2.1-service",
-	owner: "infinix",
-	src: "proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service",
-	filename: "android.hardware.biometrics.fingerprint@2.1-service",
-	sub_dir: "hw",
-	soc_specific: true,
-}
-
-sh_binary {
 	name: "android.hardware.bluetooth@1.1-service-mediatek",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/android.hardware.bluetooth@1.1-service-mediatek",
 	filename: "android.hardware.bluetooth@1.1-service-mediatek",
-	sub_dir: "hw",
-	soc_specific: true,
-}
-
-sh_binary {
-	name: "android.hardware.boot@1.2-service",
-	owner: "infinix",
-	src: "proprietary/vendor/bin/hw/android.hardware.boot@1.2-service",
-	filename: "android.hardware.boot@1.2-service",
-	sub_dir: "hw",
-	soc_specific: true,
-}
-
-sh_binary {
-	name: "android.hardware.cas@1.2-service-lazy",
-	owner: "infinix",
-	src: "proprietary/vendor/bin/hw/android.hardware.cas@1.2-service-lazy",
-	filename: "android.hardware.cas@1.2-service-lazy",
 	sub_dir: "hw",
 	soc_specific: true,
 }
@@ -12439,46 +12385,10 @@ sh_binary {
 }
 
 sh_binary {
-	name: "android.hardware.gatekeeper@1.0-service",
-	owner: "infinix",
-	src: "proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service",
-	filename: "android.hardware.gatekeeper@1.0-service",
-	sub_dir: "hw",
-	soc_specific: true,
-}
-
-sh_binary {
 	name: "android.hardware.graphics.allocator@4.0-service-mediatek",
 	owner: "infinix",
 	src: "proprietary/vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek",
 	filename: "android.hardware.graphics.allocator@4.0-service-mediatek",
-	sub_dir: "hw",
-	soc_specific: true,
-}
-
-sh_binary {
-	name: "android.hardware.graphics.composer@2.1-service",
-	owner: "infinix",
-	src: "proprietary/vendor/bin/hw/android.hardware.graphics.composer@2.1-service",
-	filename: "android.hardware.graphics.composer@2.1-service",
-	sub_dir: "hw",
-	soc_specific: true,
-}
-
-sh_binary {
-	name: "android.hardware.health@2.1-service",
-	owner: "infinix",
-	src: "proprietary/vendor/bin/hw/android.hardware.health@2.1-service",
-	filename: "android.hardware.health@2.1-service",
-	sub_dir: "hw",
-	soc_specific: true,
-}
-
-sh_binary {
-	name: "android.hardware.keymaster@4.1-service.trustonic",
-	owner: "infinix",
-	src: "proprietary/vendor/bin/hw/android.hardware.keymaster@4.1-service.trustonic",
-	filename: "android.hardware.keymaster@4.1-service.trustonic",
 	sub_dir: "hw",
 	soc_specific: true,
 }
